@@ -59,3 +59,15 @@ npm run preview
 - **React 18** — UI rendering
 - **TypeScript** — Type safety
 - **Vite** — Build tooling
+- **Cloudflare Pages** — Hosting
+
+## Live Demo
+
+🎮 **Play now:** https://tetris.milesch.top
+
+## Custom Domain Setup
+
+The game is configured to run on `tetris.milesch.top`. To set up:
+
+1. Add a CNAME record in your DNS: `tetris` → `tetris-e7u.pages.dev`
+2. In Cloudflare Dashboard → Pages → tetris → Custom domains, add `tetris.milesch.top`
